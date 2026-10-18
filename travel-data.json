@@ -3,13 +3,13 @@
     "start": "2026-12-04",
     "end": "2027-02-28"
   },
-  "attemptedAt": "2026-10-17T20:52:49.104Z",
+  "attemptedAt": "2026-10-18T05:02:18.055Z",
   "groups": [
     {
       "id": "rail",
       "label": "Central, Jubilee, Elizabeth line, DLR and Mildmay",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": []
     },
@@ -17,7 +17,7 @@
       "id": "buses0",
       "label": "Bus routes 104, 108, 158, 238, 241, 25, 257, 262, 276, 308, 339, 388, 425, 473, 678, 69",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": []
     },
@@ -25,7 +25,7 @@
       "id": "buses1",
       "label": "Bus routes 86, 97, D8, N205, N25, N8, N86",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": []
     },
@@ -33,15 +33,30 @@
       "id": "stratford",
       "label": "Stratford station and both bus stations",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
-      "notices": []
+      "notices": [
+        {
+          "title": "Stratford (London) Rail Station",
+          "detail": "MILDMAY LINE: Sunday 18 October, until 1115, no service between Gospel Oak and Stratford. Replacement bus service S operates between Gospel Oak (Southampton Road / Agincourt Road) and Stratford via Kentish Town West, Camden Road, Holloway Road (Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick.",
+          "scope": "Station or stop notice",
+          "start": "2026-10-18T03:30:00.000Z",
+          "end": "2026-10-18T10:15:00.000Z"
+        },
+        {
+          "title": "Stratford (London) Rail Station",
+          "detail": "MILDMAY LINE: Sunday 18 October, after 2215, no service between Camden Road and Stratford. Rail replacement buses will run as follows: Service S: Camden Road - Holloway Road (Piccadilly line) - Highbury & Islington - Canonbury - Dalston Junction (for Dalston Kingsland) - Hackney Central - Homerton - Hackney Wick - Stratford. For Caledonian Road & Barnsbury use local bus route 274 to/from Camden Road or walk to/from Highbury & Islington. Some buses continue on request westbound only from Camden Road as follows: Camden Road - Kentish Town West - Gospel Oak (bus stop in Southampton Road) - Hampstead Heath - Finchley Road Tube (for Finchley Road & Frognal) - West Hampstead - Brondesbury (bus stops in Kilburn High Road) - Queen's Park (walk/local buses for Brondesbury Park) - Kensal Rise - Willesden Junction - Acton Central - South Acton - Gunnersbury - Kew Gardens (Royal Botanic Gardens) - Richmond. Last through trains: Richmond to Stratford 2110; Camden Road to Stratford 2203; Stratford to Richmond 2201; Stratford to Clapham Junction 22:08",
+          "scope": "Station or stop notice",
+          "start": "2026-10-18T21:15:00.000Z",
+          "end": "2026-10-19T00:29:00.000Z"
+        }
+      ]
     },
     {
       "id": "international",
       "label": "Stratford International DLR",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": [
         {
@@ -49,7 +64,7 @@
           "detail": "Stratford International DLR : Step free access is not available due to faulty lifts. Call us on 0343 222 1234 if you need help planning your journey.",
           "scope": "Station or stop notice",
           "start": "2026-10-15T07:53:00.000Z",
-          "end": "2026-10-18T00:29:00.000Z"
+          "end": "2026-10-19T00:29:00.000Z"
         }
       ]
     },
@@ -57,7 +72,7 @@
       "id": "490002268YY",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": []
     },
@@ -65,7 +80,7 @@
       "id": "490002268ZZ",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": []
     },
@@ -73,7 +88,7 @@
       "id": "490018554C",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": []
     },
@@ -81,7 +96,7 @@
       "id": "490018554E",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-17T20:52:49.104Z",
+      "checkedAt": "2026-10-18T05:02:18.055Z",
       "error": null,
       "notices": []
     }
