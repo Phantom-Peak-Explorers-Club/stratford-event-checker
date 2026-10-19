@@ -7,7 +7,7 @@ window.CALENDAR_DATA = {
     "sourceUrl": "https://www.phantompeak.com/tickets/?flow=lyTxE9UF",
     "lastChecked": "19 October 2026",
     "lastSuccessfulLiveSync": "19 October 2026",
-    "liveSyncStatus": "live-calendar",
+    "liveSyncStatus": "scan-error-fallback-retained",
     "performances": [
       {
         "date": "2026-12-04",
@@ -462,11 +462,11 @@ window.CALENDAR_DATA = {
       }
     ],
     "refresh": {
-      "status": "success",
-      "lastAttemptAt": "2026-10-19T04:44:54.446811+00:00",
+      "status": "error-fallback-retained",
+      "lastAttemptAt": "2026-10-19T13:22:18.300101+00:00",
       "lastSuccessfulRefreshAt": "2026-10-19T04:44:58.171219+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
-      "error": null
+      "error": "Timeout 90000ms exceeded while waiting for event \"response\""
     }
   },
   "londonStadium": {
@@ -524,8 +524,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-10-19T04:44:53.680421+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-19T04:44:54.446794+00:00",
+      "lastAttemptAt": "2026-10-19T13:22:17.616107+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-19T13:22:18.300087+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     },
