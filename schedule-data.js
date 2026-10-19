@@ -463,7 +463,7 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "error-fallback-retained",
-      "lastAttemptAt": "2026-10-19T13:22:18.300101+00:00",
+      "lastAttemptAt": "2026-10-19T22:23:05.696697+00:00",
       "lastSuccessfulRefreshAt": "2026-10-19T04:44:58.171219+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": "Timeout 90000ms exceeded while waiting for event \"response\""
@@ -524,8 +524,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-10-19T13:22:17.616107+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-19T13:22:18.300087+00:00",
+      "lastAttemptAt": "2026-10-19T22:23:04.771106+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-19T22:23:05.696676+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     },
