@@ -114,10 +114,10 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "error-fallback-retained",
-      "lastAttemptAt": "2026-10-20T10:05:59.963785+00:00",
+      "lastAttemptAt": "2026-10-20T10:07:50.744409+00:00",
       "lastSuccessfulRefreshAt": "2026-10-19T04:44:58.171219+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
-      "error": "Event records do not match the production date inventory"
+      "error": "Event records do not match the production date inventory for The Great Redoing: dates=102, events=63, dates without events=['2026-12-04T18:00:00+00:00', '2026-12-05T12:00:00+00:00', '2026-12-05T18:00:00+00:00', '2026-12-06T12:00:00+00:00', '2026-12-11T18:00:00+00:00', '2026-12-12T18:00:00+00:00', '2026-12-13T12:00:00+00:00', '2026-12-18T18:00:00+00:00'], events without dates=[]"
     }
   },
   "londonStadium": {
@@ -175,8 +175,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-10-20T10:05:59.358358+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-20T10:05:59.963767+00:00",
+      "lastAttemptAt": "2026-10-20T10:07:49.990365+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-20T10:07:50.744392+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     },
