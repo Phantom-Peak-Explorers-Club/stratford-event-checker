@@ -403,8 +403,9 @@ def parse_phantom_peak_widget(payload: dict) -> dict:
     """Read explicit event starts from the booking widget's complete response.
 
     Refuse partial/changed schemas. Each production's advertised date inventory
-    must match its event records before any changes or missing-date counts can
-    be published. Sold-out/off-sale records still represent performances.
+    must have matching event records within the published range before changes
+    or missing-date counts can be published. Older dates may remain in the
+    inventory. Sold-out/off-sale records still represent performances.
     """
     if not isinstance(payload, dict) or not isinstance(payload.get("productions"), list):
         raise ValueError("Missing widget productions list")
@@ -462,14 +463,20 @@ def parse_phantom_peak_widget(payload: dict) -> dict:
                 active_dates.add(key)
                 mapping[key].add(local.strftime("%H:%M"))
             event_count += 1
-        if actual != expected:
-            missing = sorted(expected - actual)
-            extra = sorted(actual - expected)
+        # The widget can retain advertised dates from an earlier season after
+        # their event records have gone. Require a complete event inventory
+        # only for the window this site publishes.
+        missing = sorted(
+            value for value in expected - actual
+            if in_target(value.astimezone(ZoneInfo("Europe/London")).date())
+        )
+        extra = sorted(actual - expected)
+        if missing or extra:
             raise ValueError(
                 "Event records do not match the production date inventory"
                 f" for {production.get('name', 'unnamed production')}:"
                 f" dates={len(expected)}, events={len(actual)},"
-                f" dates without events={[value.isoformat() for value in missing[:8]]},"
+                f" in-range dates without events={[value.isoformat() for value in missing[:8]]},"
                 f" events without dates={[value.isoformat() for value in extra[:8]]}"
             )
 

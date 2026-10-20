@@ -107,6 +107,8 @@ class CurrentSeasonTests(unittest.TestCase):
         self.assertTrue(scan['successful'])
         self.assertEqual(scan['scannedMonths'], ['2027-02', '2027-03', '2027-04', '2027-05'])
         self.assertEqual(scan['seenDates'][-1], '2027-05-23')
+        production['dates'] = ['2026-12-04T18:00:00Z'] + starts
+        self.assertTrue(updater.parse_phantom_peak_widget(payload)['successful'])
         production['dates'] = starts[:-6]
         production['events'] = production['events'][:-6]
         self.assertFalse(updater.parse_phantom_peak_widget(payload)['successful'])
