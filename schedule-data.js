@@ -114,10 +114,10 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "error-fallback-retained",
-      "lastAttemptAt": "2026-10-20T04:54:34.415010+00:00",
+      "lastAttemptAt": "2026-10-20T10:05:59.963785+00:00",
       "lastSuccessfulRefreshAt": "2026-10-19T04:44:58.171219+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
-      "error": "Timeout 90000ms exceeded while waiting for event \"response\""
+      "error": "Event records do not match the production date inventory"
     }
   },
   "londonStadium": {
@@ -135,12 +135,48 @@ window.CALENDAR_DATA = {
         "time": "12:00",
         "name": "West Ham United v Millwall",
         "status": "scheduled"
+      },
+      {
+        "date": "2027-03-06",
+        "time": "15:00",
+        "name": "West Ham United v Burnley",
+        "status": "scheduled"
+      },
+      {
+        "date": "2027-03-17",
+        "time": "19:45",
+        "name": "West Ham United v Sheffield United",
+        "status": "scheduled"
+      },
+      {
+        "date": "2027-04-03",
+        "time": "15:00",
+        "name": "West Ham United v Birmingham City",
+        "status": "scheduled"
+      },
+      {
+        "date": "2027-04-06",
+        "time": "19:45",
+        "name": "West Ham United v Bolton Wanderers",
+        "status": "scheduled"
+      },
+      {
+        "date": "2027-04-17",
+        "time": "15:00",
+        "name": "West Ham United v Watford",
+        "status": "scheduled"
+      },
+      {
+        "date": "2027-05-01",
+        "time": "12:30",
+        "name": "West Ham United v Portsmouth",
+        "status": "scheduled"
       }
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-10-20T04:54:33.664290+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-20T04:54:34.414989+00:00",
+      "lastAttemptAt": "2026-10-20T10:05:59.358358+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-20T10:05:59.963767+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     },
