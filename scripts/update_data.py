@@ -463,7 +463,15 @@ def parse_phantom_peak_widget(payload: dict) -> dict:
                 mapping[key].add(local.strftime("%H:%M"))
             event_count += 1
         if actual != expected:
-            raise ValueError("Event records do not match the production date inventory")
+            missing = sorted(expected - actual)
+            extra = sorted(actual - expected)
+            raise ValueError(
+                "Event records do not match the production date inventory"
+                f" for {production.get('name', 'unnamed production')}:"
+                f" dates={len(expected)}, events={len(actual)},"
+                f" dates without events={[value.isoformat() for value in missing[:8]]},"
+                f" events without dates={[value.isoformat() for value in extra[:8]]}"
+            )
 
     seen = sorted(active_dates | cancelled_dates)
     months = sorted({d[:7] for d in seen})
