@@ -81,7 +81,7 @@
 
   function performancesForWeek(week) {
     return data.phantomPeak.performances
-      .filter(p => p.date >= isoDate(week.start) && p.date <= isoDate(week.end) && p.status !== 'cancelled')
+      .filter(p => p.date >= RANGE_START && p.date <= RANGE_END && p.date >= isoDate(week.start) && p.date <= isoDate(week.end) && p.status !== 'cancelled')
       .sort((a, b) => a.date.localeCompare(b.date));
   }
 

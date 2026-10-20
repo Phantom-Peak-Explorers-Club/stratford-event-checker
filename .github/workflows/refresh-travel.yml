@@ -8,6 +8,7 @@ on:
       - "travel-core.js"
       - "travel.js"
       - "scripts/update_travel.cjs"
+      - "schedule-data.js"
       - "tests/test_travel.cjs"
       - ".github/workflows/refresh-travel.yml"
 permissions:

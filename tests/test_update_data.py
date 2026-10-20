@@ -21,9 +21,9 @@ class RefreshTests(unittest.TestCase):
         self.original = copy.deepcopy(self.data)
 
     def scan(self, successful=True):
-        return dict(successful=successful, times={'2026-12-04': ['19:00']},
-                    availableDates=['2026-12-04'], seenDates=[], cancelledDates=[],
-                    scannedMonths=['2026-12', '2027-01', '2027-02'])
+        return dict(successful=successful, times={'2027-02-12': ['19:00']},
+                    availableDates=['2027-02-12'], seenDates=[], cancelledDates=[],
+                    scannedMonths=['2027-02', '2027-03', '2027-04', '2027-05'])
 
     @patch.object(updater.time, 'sleep')
     @patch.object(updater.requests, 'get')
@@ -37,7 +37,7 @@ class RefreshTests(unittest.TestCase):
     @patch.object(updater.time, 'sleep')
     @patch.object(updater.requests, 'get')
     def test_request_recovers_on_third_attempt(self, get, sleep):
-        response = Mock(text='<p>4 December 2026</p><p>Test event</p>')
+        response = Mock(text='<p>12 February 2027</p><p>Test event</p>')
         get.side_effect = [updater.requests.Timeout(), updater.requests.Timeout(), response]
         self.assertEqual(updater.scrape_stadium()[0]['name'], 'Test event')
         self.assertEqual(get.call_count, 3)
@@ -59,7 +59,7 @@ class RefreshTests(unittest.TestCase):
         self.assertEqual(updater.stale_sources(self.data, self.now), [])
 
     def test_incomplete_pp_scan_preserves_all_performance_fields(self):
-        events = [{'date': '2026-12-04', 'name': 'Updated', 'time': None, 'status': 'scheduled'}]
+        events = [{'date': '2027-02-12', 'name': 'Updated', 'time': None, 'status': 'scheduled'}]
         with patch.object(updater, 'scrape_stadium', return_value=events), patch.object(
             updater, 'scrape_phantom_peak', new=AsyncMock(return_value=self.scan(False))
         ):

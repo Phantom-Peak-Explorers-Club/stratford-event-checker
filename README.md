@@ -2,7 +2,7 @@
 
 A lightweight static website for comparing Phantom Peak performance days with events at London Stadium.
 
-The site covers **4 December 2026 to 28 February 2027** and opens on Phantom Peak's opening week. Visitors can use **Next week** and **Previous week** to move through all 13 calendar weeks.
+The site covers **12 February to 23 May 2027**, the last currently listed Phantom Peak performance date. Visitors can use **Next week** and **Previous week** to move through all 15 calendar weeks. The range needs extending when later performances are published.
 
 ## What it does
 
@@ -84,7 +84,7 @@ The action reads the official London Stadium events page:
 
 `https://www.london-stadium.com/events/all.html`
 
-A successful scan replaces the Stadium events inside the configured Dec-Feb window. **Any dated event is retained even if its time is still TBC.** This means additions, removals, names and advertised times can update automatically; a Time TBC listing will gain its start time on a later scan as soon as London Stadium publishes it.
+A successful scan replaces the Stadium events inside the configured February–May window. **Any dated event is retained even if its time is still TBC.** This means additions, removals, names and advertised times can update automatically; a Time TBC listing will gain its start time on a later scan as soon as London Stadium publishes it.
 
 ### Phantom Peak
 
@@ -186,7 +186,7 @@ A successful full-range scan logs something similar to:
 
 `Phantom Peak: live full-range sync succeeded`
 
-If the Phantom Peak booking interface changes and the scraper cannot confidently read the complete Dec-Feb calendar, it **keeps the existing fallback data instead of wiping it**.
+If the Phantom Peak booking interface changes and the scraper cannot confidently read the complete February–May calendar, it **keeps the existing fallback data instead of wiping it**.
 
 The workflow also uploads a temporary artifact called:
 

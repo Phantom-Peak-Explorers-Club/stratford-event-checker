@@ -1,7 +1,7 @@
 import copy
 import json
 import unittest
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -10,6 +10,12 @@ from scripts import update_data as updater
 
 class StadiumBackupTests(unittest.TestCase):
     def setUp(self):
+        start = patch.object(updater, 'TARGET_START', date(2026, 12, 4))
+        end = patch.object(updater, 'TARGET_END', date(2027, 2, 28))
+        start.start()
+        end.start()
+        self.addCleanup(start.stop)
+        self.addCleanup(end.stop)
         self.rows = json.loads((Path(__file__).parent / 'fixtures/whu-fixtures.json').read_text())
 
     def html(self):

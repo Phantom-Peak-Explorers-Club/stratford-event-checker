@@ -34,8 +34,8 @@ DIAG_DIR = ROOT / "diagnostics"
 PP_URL = "https://www.phantompeak.com/tickets/?flow=lyTxE9UF"
 STADIUM_URL = "https://www.london-stadium.com/events/all.html"
 WEST_HAM_URL = "https://www.whufc.com/en/matches/mens-team/fixtures"
-TARGET_START = date(2026, 12, 4)
-TARGET_END = date(2027, 2, 28)
+TARGET_START = date(2027, 2, 12)
+TARGET_END = date(2027, 5, 23)
 
 MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4,
@@ -63,6 +63,15 @@ def today_label() -> str:
 
 def in_target(d: date) -> bool:
     return TARGET_START <= d <= TARGET_END
+
+
+def target_months() -> set[str]:
+    months = set()
+    month = TARGET_START.replace(day=1)
+    while month <= TARGET_END:
+        months.add(month.strftime("%Y-%m"))
+        month = (month.replace(day=28) + timedelta(days=4)).replace(day=1)
+    return months
 
 
 def load_data() -> dict:
@@ -329,7 +338,7 @@ def parse_west_ham_html(html: str) -> list[dict]:
                 raise ValueError("Conflicting fixture records")
             events[identity] = event
     result = sorted(events.values(), key=lambda event: (event["date"], event["name"]))
-    if not result or {event["date"][:7] for event in result} != {"2026-12", "2027-01", "2027-02"}:
+    if not result or {event["date"][:7] for event in result} != target_months():
         raise ValueError("West Ham fixture response does not cover the target months")
     return result
 
@@ -458,13 +467,13 @@ def parse_phantom_peak_widget(payload: dict) -> dict:
 
     seen = sorted(active_dates | cancelled_dates)
     months = sorted({d[:7] for d in seen})
-    # Preserve the existing conservative range gate, now backed by explicit
-    # structured event records rather than a heading or arbitrary JSON text.
+    # Require coverage across the configured season before changing known data.
+    # A partial widget response must not make sold-out dates look missing.
     successful = bool(seen) and (
-        set(months).issuperset({"2026-12", "2027-01", "2027-02"})
+        set(months).issuperset(target_months())
         and len(seen) >= 20
-        and seen[0] <= "2026-12-20"
-        and seen[-1] >= "2027-02-15"
+        and seen[0] <= (TARGET_START + timedelta(days=7)).isoformat()
+        and seen[-1] >= (TARGET_END - timedelta(days=7)).isoformat()
     )
     return {
         "successful": successful,
@@ -485,39 +494,43 @@ async def scrape_phantom_peak() -> dict:
 
     DIAG_DIR.mkdir(exist_ok=True)
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page(locale="en-GB", timezone_id="Europe/London")
-        try:
-            # Discover the response through the official ticket page so its
-            # campaign and widget configuration stay under the venue's control.
-            # Waiting for this response also handles late shadow-DOM rendering.
-            async with page.expect_response(
-                lambda response: is_pp_widget_response(response.url), timeout=90000
-            ) as response_info:
-                await page.goto(PP_URL, wait_until="domcontentloaded", timeout=90000)
-            response = await response_info.value
-            if response.status != 200:
-                raise RuntimeError(f"Phantom Peak widget returned HTTP {response.status}")
-            payload = await response.json()
-            scan = parse_phantom_peak_widget(payload)
-            (DIAG_DIR / "phantom-peak-scan.txt").write_text(
-                "PPEC Phantom Peak scan diagnostics\n"
-                f"Method: {scan['method']}\n"
-                f"Successful full-range calendar scan: {scan['successful']}\n"
-                f"Months covered: {', '.join(scan['scannedMonths']) or '-'}\n"
-                f"Event records: {scan['eventCount']}\n"
-                f"Live performance dates: {len(scan['availableDates'])}\n"
-                + "\nEXTRACTED TIMES\n"
-                + "\n".join(f"{d}: {', '.join(times)}" for d, times in scan["times"].items()),
-                encoding="utf-8",
-            )
-            return scan
-        finally:
+        for attempt in range(2):
+            browser = await p.chromium.launch(headless=True)
+            page = await browser.new_page(locale="en-GB", timezone_id="Europe/London")
             try:
-                await page.screenshot(path=str(DIAG_DIR / "phantom-peak-page.png"), full_page=True)
+                # Discover the response through the official ticket page so its
+                # campaign and widget configuration stay under the venue's control.
+                # Retry a transient missing response with a fresh browser.
+                async with page.expect_response(
+                    lambda response: is_pp_widget_response(response.url), timeout=90000
+                ) as response_info:
+                    await page.goto(PP_URL, wait_until="domcontentloaded", timeout=90000)
+                response = await response_info.value
+                if response.status != 200:
+                    raise RuntimeError(f"Phantom Peak widget returned HTTP {response.status}")
+                payload = await response.json()
+                scan = parse_phantom_peak_widget(payload)
+                (DIAG_DIR / "phantom-peak-scan.txt").write_text(
+                    "PPEC Phantom Peak scan diagnostics\n"
+                    f"Method: {scan['method']}\n"
+                    f"Successful full-range calendar scan: {scan['successful']}\n"
+                    f"Months covered: {', '.join(scan['scannedMonths']) or '-'}\n"
+                    f"Event records: {scan['eventCount']}\n"
+                    f"Live performance dates: {len(scan['availableDates'])}\n"
+                    + "\nEXTRACTED TIMES\n"
+                    + "\n".join(f"{d}: {', '.join(times)}" for d, times in scan["times"].items()),
+                    encoding="utf-8",
+                )
+                return scan
             except Exception:
-                pass
-            await browser.close()
+                if attempt == 1:
+                    raise
+            finally:
+                try:
+                    await page.screenshot(path=str(DIAG_DIR / "phantom-peak-page.png"), full_page=True)
+                except Exception:
+                    pass
+                await browser.close()
 
 
 def merge_phantom_peak(data: dict, scan: dict) -> bool:
