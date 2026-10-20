@@ -6,8 +6,8 @@ window.CALENDAR_DATA = {
   "phantomPeak": {
     "sourceUrl": "https://www.phantompeak.com/tickets/?flow=lyTxE9UF",
     "lastChecked": "20 October 2026",
-    "lastSuccessfulLiveSync": "19 October 2026",
-    "liveSyncStatus": "scan-error-fallback-retained",
+    "lastSuccessfulLiveSync": "20 October 2026",
+    "liveSyncStatus": "live-calendar",
     "performances": [
       {
         "date": "2027-02-12",
@@ -110,14 +110,445 @@ window.CALENDAR_DATA = {
         "status": "scheduled",
         "listingStatus": "normal",
         "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-05",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-06",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-07",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-12",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-13",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-14",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-19",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-20",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-21",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-26",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-27",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-28",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-03-29",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-02",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-03",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-04",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-09",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-10",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-11",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-16",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-17",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-18",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-23",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-24",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-25",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-04-30",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-01",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-02",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-03",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-07",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-08",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-09",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-14",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-15",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-16",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-21",
+        "times": [
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-22",
+        "times": [
+          "12:00",
+          "18:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
+      },
+      {
+        "date": "2027-05-23",
+        "times": [
+          "12:00"
+        ],
+        "note": null,
+        "basis": "live-ticketing",
+        "status": "scheduled",
+        "listingStatus": "normal",
+        "missingLiveRuns": 0
       }
     ],
     "refresh": {
-      "status": "error-fallback-retained",
-      "lastAttemptAt": "2026-10-20T10:07:50.744409+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-19T04:44:58.171219+00:00",
+      "status": "success",
+      "lastAttemptAt": "2026-10-20T10:09:40.932725+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-20T10:09:44.764378+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
-      "error": "Event records do not match the production date inventory for The Great Redoing: dates=102, events=63, dates without events=['2026-12-04T18:00:00+00:00', '2026-12-05T12:00:00+00:00', '2026-12-05T18:00:00+00:00', '2026-12-06T12:00:00+00:00', '2026-12-11T18:00:00+00:00', '2026-12-12T18:00:00+00:00', '2026-12-13T12:00:00+00:00', '2026-12-18T18:00:00+00:00'], events without dates=[]"
+      "error": null
     }
   },
   "londonStadium": {
@@ -175,8 +606,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-10-20T10:07:49.990365+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-20T10:07:50.744392+00:00",
+      "lastAttemptAt": "2026-10-20T10:09:40.067551+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-20T10:09:40.932702+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     },
