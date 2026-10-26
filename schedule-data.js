@@ -5,8 +5,8 @@ window.CALENDAR_DATA = {
   },
   "phantomPeak": {
     "sourceUrl": "https://www.phantompeak.com/tickets/?flow=lyTxE9UF",
-    "lastChecked": "25 October 2026",
-    "lastSuccessfulLiveSync": "25 October 2026",
+    "lastChecked": "26 October 2026",
+    "lastSuccessfulLiveSync": "26 October 2026",
     "liveSyncStatus": "live-calendar",
     "performances": [
       {
@@ -545,15 +545,15 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-10-25T20:53:46.276170+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-25T20:53:50.527449+00:00",
+      "lastAttemptAt": "2026-10-26T04:51:19.945385+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-26T04:51:24.289341+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     }
   },
   "londonStadium": {
     "sourceUrl": "https://www.london-stadium.com/events/all.html",
-    "lastChecked": "25 October 2026",
+    "lastChecked": "26 October 2026",
     "events": [
       {
         "date": "2027-02-16",
@@ -606,8 +606,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-10-25T20:53:45.408690+00:00",
-      "lastSuccessfulRefreshAt": "2026-10-25T20:53:46.276154+00:00",
+      "lastAttemptAt": "2026-10-26T04:51:14.441230+00:00",
+      "lastSuccessfulRefreshAt": "2026-10-26T04:51:19.945368+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     },
