@@ -3,13 +3,13 @@
     "start": "2027-02-12",
     "end": "2027-05-23"
   },
-  "attemptedAt": "2026-10-29T22:56:11.177Z",
+  "attemptedAt": "2026-10-30T06:20:20.935Z",
   "groups": [
     {
       "id": "rail",
       "label": "Central, Jubilee, Elizabeth line, DLR and Mildmay",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     },
@@ -17,7 +17,7 @@
       "id": "buses0",
       "label": "Bus routes 104, 108, 158, 238, 241, 25, 257, 262, 276, 308, 339, 388, 425, 473, 678, 69",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     },
@@ -25,7 +25,7 @@
       "id": "buses1",
       "label": "Bus routes 86, 97, D8, N205, N25, N8, N86",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     },
@@ -33,50 +33,29 @@
       "id": "stratford",
       "label": "Stratford station and both bus stations",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": [
         {
           "title": "Stratford (London) Rail Station",
-          "detail": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2249 train from Richmond to Stratford will terminate at Willesden Junction at 2306",
+          "detail": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, after 2300 each evening, no eastbound service from Willesden Junction to Stratford. Customers should use the last eastbound services detailed or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 2232; Willesden Junction to Stratford 2252. In addition, the 2249 train from Richmond to Stratford will not run, the 2302 train from Richmond to Stratford will terminate at Willesden Junction and the 2318 train from Richmond to Willesden Junction will not run",
           "scope": "Station or stop notice",
-          "start": "2026-10-29T21:45:00.000Z",
-          "end": "2026-10-29T23:45:00.000Z"
-        },
-        {
-          "title": "Stratford (London) Rail Station",
-          "detail": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, from 2345 each evening, no westbound service from Stratford to Camden Road. The 2359 and 0015 services from Stratford will start from Camden Road at 0018 and 0035. Customers should use the last westbound service from Stratford at 2344, or local bus routes 30, 274, 388, 393 or 488.",
-          "scope": "Station or stop notice",
-          "start": "2026-10-29T23:45:00.000Z",
-          "end": "2026-10-29T23:59:00.000Z"
-        },
-        {
-          "title": "Stratford (London) Rail Station",
-          "detail": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, from 2345 each evening, no westbound service from Stratford to Camden Road. The 2359 and 0015 services from Stratford will start from Camden Road at 0018 and 0035. Customers should use the last westbound service from Stratford at 2344, or local bus routes 30, 274, 388, 393 or 488.",
-          "scope": "Station or stop notice",
-          "start": "2026-10-30T00:00:00.000Z",
-          "end": "2026-10-30T01:29:00.000Z"
+          "start": "2026-10-30T23:00:00.000Z",
+          "end": "2026-10-30T23:59:00.000Z"
         },
         {
           "title": "Stratford (London) Rail Station",
           "detail": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, after 2300 each evening, no eastbound service from Willesden Junction to Stratford. Customers should use the last eastbound services detailed or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 2232; Willesden Junction to Stratford 2252. In addition, the 2249 train from Richmond to Stratford will not run, the 2302 train from Richmond to Stratford will terminate at Willesden Junction and the 2318 train from Richmond to Willesden Junction will not run",
           "scope": "Station or stop notice",
-          "start": "2026-10-29T23:00:00.000Z",
-          "end": "2026-10-29T23:59:00.000Z"
-        },
-        {
-          "title": "Stratford (London) Rail Station",
-          "detail": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, after 2300 each evening, no eastbound service from Willesden Junction to Stratford. Customers should use the last eastbound services detailed or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 2232; Willesden Junction to Stratford 2252. In addition, the 2249 train from Richmond to Stratford will not run, the 2302 train from Richmond to Stratford will terminate at Willesden Junction and the 2318 train from Richmond to Willesden Junction will not run",
-          "scope": "Station or stop notice",
-          "start": "2026-10-30T00:00:00.000Z",
-          "end": "2026-10-30T01:29:00.000Z"
+          "start": "2026-10-31T00:00:00.000Z",
+          "end": "2026-10-31T01:29:00.000Z"
         },
         {
           "title": "Stratford (London) Rail Station",
           "detail": "Stratford: No Step Free Access - The lifts will be out of order between island PLATFORMS 1 & 2 and the station exit/entrance from now until further notice at Stratford station.",
           "scope": "Station or stop notice",
-          "start": "2026-10-29T20:21:00.000Z",
-          "end": "2026-10-30T01:29:00.000Z"
+          "start": "2026-10-30T04:19:00.000Z",
+          "end": "2026-10-31T01:29:00.000Z"
         }
       ]
     },
@@ -84,7 +63,7 @@
       "id": "international",
       "label": "Stratford International DLR",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     },
@@ -92,7 +71,7 @@
       "id": "490002268YY",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     },
@@ -100,7 +79,7 @@
       "id": "490002268ZZ",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     },
@@ -108,7 +87,7 @@
       "id": "490018554C",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     },
@@ -116,7 +95,7 @@
       "id": "490018554E",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-10-29T22:56:11.177Z",
+      "checkedAt": "2026-10-30T06:20:20.935Z",
       "error": null,
       "notices": []
     }
