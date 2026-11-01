@@ -3,13 +3,13 @@
     "start": "2027-02-12",
     "end": "2027-05-23"
   },
-  "attemptedAt": "2026-11-01T06:44:13.249Z",
+  "attemptedAt": "2026-11-01T18:03:34.850Z",
   "groups": [
     {
       "id": "rail",
       "label": "Central, Jubilee, Elizabeth line, DLR and Mildmay",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     },
@@ -17,7 +17,7 @@
       "id": "buses0",
       "label": "Bus routes 104, 108, 158, 238, 241, 25, 257, 262, 276, 308, 339, 388, 425, 473, 678, 69",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     },
@@ -25,7 +25,7 @@
       "id": "buses1",
       "label": "Bus routes 86, 97, D8, N205, N25, N8, N86",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     },
@@ -33,21 +33,28 @@
       "id": "stratford",
       "label": "Stratford station and both bus stations",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": [
         {
           "title": "Stratford (London) Rail Station",
-          "detail": "Stratford: No Step Free Access - Step free access is not available between the Jubilee line and Central line, Greater Anglia, Mildmay line and Elizabeth line platforms. Call us on 0343 222 1234 if you need more help.",
+          "detail": "Stratford: No Step Free Access - Step free access is not available to platforms 1, 2 and 12 (Mildmay line and Greater Anglia trains to / from Tottenham Hale) due to faulty lifts. Call 0343 222 1234 if you need help planning your journey.",
           "scope": "Station or stop notice",
-          "start": "2026-11-01T00:34:00.000Z",
+          "start": "2026-11-01T13:13:00.000Z",
+          "end": "2026-11-02T01:29:00.000Z"
+        },
+        {
+          "title": "Stratford (London) Rail Station",
+          "detail": "Stratford: No Step Free Access - Step free access is not available to platforms 1, 2 and 12 (Mildmay line and Greater Anglia trains to / from Tottenham Hale) due to faulty lifts. Call 0343 222 1234 if you need help planning your journey.",
+          "scope": "Station or stop notice",
+          "start": "2026-11-01T13:10:00.000Z",
           "end": "2026-11-02T01:29:00.000Z"
         },
         {
           "title": "Stratford Underground Station",
-          "detail": "Stratford: No Step Free Access - Step free access is not available between the Jubilee line and Central line, Greater Anglia, Mildmay line and Elizabeth line platforms. Call us on 0343 222 1234 if you need more help.",
+          "detail": "Stratford: No Step Free Access - Step free access is not available to platforms 1, 2 and 12 (Mildmay line and Greater Anglia trains to / from Tottenham Hale) due to faulty lifts. Call 0343 222 1234 if you need help planning your journey.",
           "scope": "Station or stop notice",
-          "start": "2026-10-31T13:39:00.000Z",
+          "start": "2026-11-01T13:10:00.000Z",
           "end": "2026-11-02T01:29:00.000Z"
         }
       ]
@@ -56,7 +63,7 @@
       "id": "international",
       "label": "Stratford International DLR",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     },
@@ -64,7 +71,7 @@
       "id": "490002268YY",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     },
@@ -72,7 +79,7 @@
       "id": "490002268ZZ",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     },
@@ -80,7 +87,7 @@
       "id": "490018554C",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     },
@@ -88,7 +95,7 @@
       "id": "490018554E",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-01T06:44:13.249Z",
+      "checkedAt": "2026-11-01T18:03:34.850Z",
       "error": null,
       "notices": []
     }
