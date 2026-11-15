@@ -5,8 +5,8 @@ window.CALENDAR_DATA = {
   },
   "phantomPeak": {
     "sourceUrl": "https://www.phantompeak.com/tickets/?flow=lyTxE9UF",
-    "lastChecked": "14 November 2026",
-    "lastSuccessfulLiveSync": "14 November 2026",
+    "lastChecked": "15 November 2026",
+    "lastSuccessfulLiveSync": "15 November 2026",
     "liveSyncStatus": "live-calendar",
     "performances": [
       {
@@ -545,8 +545,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-11-14T22:27:51.829627+00:00",
-      "lastSuccessfulRefreshAt": "2026-11-14T22:27:56.239404+00:00",
+      "lastAttemptAt": "2026-11-15T06:38:00.286761+00:00",
+      "lastSuccessfulRefreshAt": "2026-11-15T06:38:04.760627+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     }
@@ -559,61 +559,77 @@ window.CALENDAR_DATA = {
         "date": "2027-02-16",
         "time": "19:45",
         "name": "West Ham United v Lincoln City",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "RFpejxru4hBQU2tcDoYOi"
       },
       {
-        "date": "2027-02-20",
+        "date": "2027-02-21",
         "time": "12:00",
         "name": "West Ham United v Millwall",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "4oJmnBXq6fwndxVa2y2t99"
       },
       {
         "date": "2027-03-06",
         "time": "15:00",
         "name": "West Ham United v Burnley",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "7qG2gej3zdCSo4s28huA1U"
       },
       {
         "date": "2027-03-17",
         "time": "19:45",
         "name": "West Ham United v Sheffield United",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "5uv1fKks8oUKoZxdE9vQko"
       },
       {
         "date": "2027-04-03",
         "time": "15:00",
         "name": "West Ham United v Birmingham City",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "7o0zT0AuVcbUdqcUhmDGvi"
       },
       {
         "date": "2027-04-06",
         "time": "19:45",
         "name": "West Ham United v Bolton Wanderers",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "57TaOUZa5lNvfQkfiA28Cv"
       },
       {
         "date": "2027-04-17",
         "time": "15:00",
         "name": "West Ham United v Watford",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "6NxiPc1CN5Ffvug7UR2AVd"
       },
       {
         "date": "2027-05-01",
         "time": "12:30",
         "name": "West Ham United v Portsmouth",
-        "status": "scheduled"
+        "status": "scheduled",
+        "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
+        "fixtureId": "5Ld7aVzIXqJr3OxzV2IgNW"
       }
     ],
     "refresh": {
-      "status": "success",
-      "lastAttemptAt": "2026-11-14T22:27:51.248567+00:00",
+      "status": "partial-football-refresh",
+      "lastAttemptAt": "2026-11-15T06:37:59.709265+00:00",
       "lastSuccessfulRefreshAt": "2026-11-14T22:27:51.829604+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
-      "error": null
+      "error": "No London Stadium events found in target range; refusing to overwrite existing data"
     },
     "footballRefresh": {
-      "lastSuccessfulRefreshAt": "2026-09-06T13:39:21.360576+00:00",
-      "lastAttemptAt": "2026-09-06T13:39:21.196018+00:00",
+      "lastSuccessfulRefreshAt": "2026-11-15T06:38:00.286297+00:00",
+      "lastAttemptAt": "2026-11-15T06:38:00.165026+00:00",
       "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
       "status": "success",
       "error": null
