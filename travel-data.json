@@ -3,21 +3,78 @@
     "start": "2027-02-12",
     "end": "2027-05-23"
   },
-  "attemptedAt": "2026-11-23T08:05:41.517Z",
+  "attemptedAt": "2026-11-24T00:16:40.448Z",
   "groups": [
     {
       "id": "rail",
       "label": "Central, Jubilee, Elizabeth line, DLR and Mildmay",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
-      "notices": []
+      "notices": [
+        {
+          "service": "elizabeth",
+          "title": "Elizabeth line · Part Closure",
+          "detail": "ELIZABETH LINE: Sunday 14 February, from 1000, no service between Whitechapel and Shenfield. The limited services to/from Liverpool Street National Rail Station will also not operate. There will be no GREATER ANGLIA service between Liverpool Street and Beaulieu Park / Southend Victoria",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-14T10:00:00.000Z",
+          "end": "2027-02-15T01:29:00.000Z"
+        },
+        {
+          "service": "elizabeth",
+          "title": "Elizabeth line · Part Closure",
+          "detail": "ELIZABETH LINE: Sunday 14 February, until 0740, no service between Abbey Wood / Shenfield and Ealing Broadway. The limited services to/from Liverpool Street National Rail station will also not operate. There will also be no GREATER ANGLIA service between Liverpool Street and Beaulieu Park / Southend Victoria. The last Sunday morning train at 0007 from Heathrow Terminal 5 terminates at Ealing Broadway.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-14T04:30:00.000Z",
+          "end": "2027-02-14T07:40:00.000Z"
+        },
+        {
+          "service": "elizabeth",
+          "title": "Elizabeth line · Part Closure",
+          "detail": "ELIZABETH LINE: Sunday 14 February, between 0740 and 1000, no service between Abbey Wood / Shenfield and Paddington. The limited services to/from Liverpool Street National Rail station will also not operate. There will also be no GREATER ANGLIA service between Liverpool Street and Beaulieu Park / Southend Victoria. Trains to/from Paddington use the National Rail station.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-14T07:40:00.000Z",
+          "end": "2027-02-14T10:00:00.000Z"
+        },
+        {
+          "service": "elizabeth",
+          "title": "Elizabeth line · Reduced Service",
+          "detail": "ELIZABETH LINE: Sunday 14 February, between 0740 and 1000, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-14T07:40:00.000Z",
+          "end": "2027-02-14T10:00:00.000Z"
+        },
+        {
+          "service": "elizabeth",
+          "title": "Elizabeth line · Part Closure",
+          "detail": "ELIZABETH LINE: Sunday 28 February, until 0740, no service between Paddington and Ealing Broadway. In addition, the last Sunday morning train at 0007 from Heathrow Terminal 5 terminates at Ealing Broadway.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-28T00:05:00.000Z",
+          "end": "2027-02-28T07:40:00.000Z"
+        },
+        {
+          "service": "elizabeth",
+          "title": "Elizabeth line · Part Closure",
+          "detail": "ELIZABETH LINE: Sunday 21 February, until 0740, no service between Abbey Wood / Stratford and Ealing Broadway. Trains to/from Shenfield operate to/from Liverpool Street National Rail station, not serving Whitechapel. The last Sunday morning train at 0007 from Heathrow Terminal 5 terminates at Ealing Broadway.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-21T00:05:00.000Z",
+          "end": "2027-02-21T07:40:00.000Z"
+        },
+        {
+          "service": "elizabeth",
+          "title": "Elizabeth line · Part Closure",
+          "detail": "ELIZABETH LINE: Sunday 21 February, from 0740, no service between Abbey Wood / Stratford and Paddington. Trains to/from Shenfield operate to/from Liverpool Street National Rail station, not serving Whitechapel. Trains to/from Heathrow and Reading operate to/from Paddington National Rail station, not serving Acton Main Line, West Ealing or Hanwell.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-21T07:40:00.000Z",
+          "end": "2027-02-22T01:29:00.000Z"
+        }
+      ]
     },
     {
       "id": "buses0",
       "label": "Bus routes 104, 108, 158, 238, 241, 25, 257, 262, 276, 308, 339, 388, 425, 473, 678, 69",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     },
@@ -25,7 +82,7 @@
       "id": "buses1",
       "label": "Bus routes 86, 97, D8, N205, N25, N8, N86",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     },
@@ -33,7 +90,7 @@
       "id": "stratford",
       "label": "Stratford station and both bus stations",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     },
@@ -41,7 +98,7 @@
       "id": "international",
       "label": "Stratford International DLR",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     },
@@ -49,7 +106,7 @@
       "id": "490002268YY",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     },
@@ -57,7 +114,7 @@
       "id": "490002268ZZ",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     },
@@ -65,7 +122,7 @@
       "id": "490018554C",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     },
@@ -73,7 +130,7 @@
       "id": "490018554E",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-23T08:05:41.517Z",
+      "checkedAt": "2026-11-24T00:16:40.448Z",
       "error": null,
       "notices": []
     }
