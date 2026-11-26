@@ -3,13 +3,13 @@
     "start": "2027-02-12",
     "end": "2027-05-23"
   },
-  "attemptedAt": "2026-11-26T08:49:47.622Z",
+  "attemptedAt": "2026-11-26T21:51:53.368Z",
   "groups": [
     {
       "id": "rail",
       "label": "Central, Jubilee, Elizabeth line, DLR and Mildmay",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": [
         {
@@ -74,7 +74,7 @@
       "id": "buses0",
       "label": "Bus routes 104, 108, 158, 238, 241, 25, 257, 262, 276, 308, 339, 388, 425, 473, 678, 69",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": []
     },
@@ -82,7 +82,7 @@
       "id": "buses1",
       "label": "Bus routes 86, 97, D8, N205, N25, N8, N86",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": []
     },
@@ -90,15 +90,23 @@
       "id": "stratford",
       "label": "Stratford station and both bus stations",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
-      "notices": []
+      "notices": [
+        {
+          "title": "Stratford Underground Station",
+          "detail": "Central Line: No service between White City and Liverpool Street and MINOR DELAYS on the rest of the line due to strike action. Service is operating between White City and Ealing Broadway / West Ruislip every 12 minutes and between Liverpool Street and Hainault via Newbury Park, between Leytonstone and Epping via Woodford and between Hainault and Woodford every 12 minutes. ",
+          "scope": "Station or stop notice",
+          "start": "2026-11-26T21:10:00.000Z",
+          "end": "2026-11-27T01:29:00.000Z"
+        }
+      ]
     },
     {
       "id": "international",
       "label": "Stratford International DLR",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": []
     },
@@ -106,7 +114,7 @@
       "id": "490002268YY",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": []
     },
@@ -114,7 +122,7 @@
       "id": "490002268ZZ",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": []
     },
@@ -122,7 +130,7 @@
       "id": "490018554C",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": []
     },
@@ -130,7 +138,7 @@
       "id": "490018554E",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-26T08:49:47.622Z",
+      "checkedAt": "2026-11-26T21:51:53.368Z",
       "error": null,
       "notices": []
     }
