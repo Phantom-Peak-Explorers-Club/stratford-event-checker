@@ -545,8 +545,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-11-27T08:39:21.683041+00:00",
-      "lastSuccessfulRefreshAt": "2026-11-27T08:39:25.180833+00:00",
+      "lastAttemptAt": "2026-11-27T21:20:44.673995+00:00",
+      "lastSuccessfulRefreshAt": "2026-11-27T21:20:47.981995+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     }
@@ -622,14 +622,14 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "partial-football-refresh",
-      "lastAttemptAt": "2026-11-27T08:39:21.135480+00:00",
+      "lastAttemptAt": "2026-11-27T21:20:42.093570+00:00",
       "lastSuccessfulRefreshAt": "2026-11-26T21:36:49.073966+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": "No London Stadium events found in target range; refusing to overwrite existing data"
     },
     "footballRefresh": {
-      "lastSuccessfulRefreshAt": "2026-11-27T08:39:21.682722+00:00",
-      "lastAttemptAt": "2026-11-27T08:39:21.601092+00:00",
+      "lastSuccessfulRefreshAt": "2026-11-27T21:20:44.673377+00:00",
+      "lastAttemptAt": "2026-11-27T21:20:42.864930+00:00",
       "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
       "status": "success",
       "error": null
