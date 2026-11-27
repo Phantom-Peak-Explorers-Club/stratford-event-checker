@@ -3,13 +3,13 @@
     "start": "2027-02-12",
     "end": "2027-05-23"
   },
-  "attemptedAt": "2026-11-27T08:59:01.675Z",
+  "attemptedAt": "2026-11-27T21:34:50.398Z",
   "groups": [
     {
       "id": "rail",
       "label": "Central, Jubilee, Elizabeth line, DLR and Mildmay",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": [
         {
@@ -67,6 +67,54 @@
           "scope": "Line-wide notice; may affect journeys to Stratford",
           "start": "2027-02-21T07:40:00.000Z",
           "end": "2027-02-22T01:29:00.000Z"
+        },
+        {
+          "service": "mildmay",
+          "title": "Mildmay · Part Closure",
+          "detail": "MILDMAY LINE: From 1930 Saturday 13 until 1200 Sunday 14 February, no service between Shepherds Bush and Willesden Junction. SOUTHERN services will not operate between Shepherds Bush and Watford Junction.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-13T19:30:00.000Z",
+          "end": "2027-02-14T12:00:00.000Z"
+        },
+        {
+          "service": "mildmay",
+          "title": "Mildmay · Reduced Service",
+          "detail": "MILDMAY LINE: From 1930 Saturday 13 until 1200 Sunday 14 February, a reduced service operates between Clapham Junction and Shepherds Bush.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-13T19:30:00.000Z",
+          "end": "2027-02-14T12:00:00.000Z"
+        },
+        {
+          "service": "mildmay",
+          "title": "Mildmay · Part Closure",
+          "detail": "MILDMAY LINE: Sunday 14 February, no service between Camden Road and Stratford. WINDRUSH LINE services operate between Highbury & Islington and Dalston Junction. Replacement bus service S operates between Camden Road and Stratford via Holloway Road (for Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-14T04:30:00.000Z",
+          "end": "2027-02-15T01:29:00.000Z"
+        },
+        {
+          "service": "mildmay",
+          "title": "Mildmay · Reduced Service",
+          "detail": "MILDMAY LINE: Thursday 18 February, the 2159 train from Stratford to Richmond will terminate at Camden Road at 2219. The 2318 train from Richmond to Willesden Junction will not run",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-18T21:55:00.000Z",
+          "end": "2027-02-18T23:59:00.000Z"
+        },
+        {
+          "service": "mildmay",
+          "title": "Mildmay · Part Closure",
+          "detail": "MILDMAY LINE: Saturday 20 and Sunday 21 February, no service between Gospel Oak and Richmond / Shepherds Bush via West Hampstead. A special service operates between Stratford and Willesden Junction (Low Level) via all stations to Camden Road, then South Hampstead, Kilburn High Road, Queens Park and Kensal Green. Use local buses between Willesden Junction and Shepherds Bush, and DISTRICT LINE services between Gunnersbury, Kew Gardens and Richmond. Replacement buses operate.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-20T04:30:00.000Z",
+          "end": "2027-02-22T01:29:00.000Z"
+        },
+        {
+          "service": "mildmay",
+          "title": "Mildmay · Reduced Service",
+          "detail": "MILDMAY LINE: Sunday 21 February, a reduced service operates between Clapham Junction and Shepherds Bush.",
+          "scope": "Line-wide notice; may affect journeys to Stratford",
+          "start": "2027-02-21T04:30:00.000Z",
+          "end": "2027-02-22T01:29:00.000Z"
         }
       ]
     },
@@ -74,7 +122,7 @@
       "id": "buses0",
       "label": "Bus routes 104, 108, 158, 238, 241, 25, 257, 262, 276, 308, 339, 388, 425, 473, 678, 69",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     },
@@ -82,7 +130,7 @@
       "id": "buses1",
       "label": "Bus routes 86, 97, D8, N205, N25, N8, N86",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     },
@@ -90,7 +138,7 @@
       "id": "stratford",
       "label": "Stratford station and both bus stations",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     },
@@ -98,7 +146,7 @@
       "id": "international",
       "label": "Stratford International DLR",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     },
@@ -106,7 +154,7 @@
       "id": "490002268YY",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     },
@@ -114,7 +162,7 @@
       "id": "490002268ZZ",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     },
@@ -122,7 +170,7 @@
       "id": "490018554C",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     },
@@ -130,7 +178,7 @@
       "id": "490018554E",
       "label": "Stratford International bus stop",
       "status": "success",
-      "checkedAt": "2026-11-27T08:59:01.675Z",
+      "checkedAt": "2026-11-27T21:34:50.398Z",
       "error": null,
       "notices": []
     }
