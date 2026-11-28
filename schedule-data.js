@@ -5,8 +5,8 @@ window.CALENDAR_DATA = {
   },
   "phantomPeak": {
     "sourceUrl": "https://www.phantompeak.com/tickets/?flow=lyTxE9UF",
-    "lastChecked": "27 November 2026",
-    "lastSuccessfulLiveSync": "27 November 2026",
+    "lastChecked": "28 November 2026",
+    "lastSuccessfulLiveSync": "28 November 2026",
     "liveSyncStatus": "live-calendar",
     "performances": [
       {
@@ -545,8 +545,8 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "success",
-      "lastAttemptAt": "2026-11-27T21:20:44.673995+00:00",
-      "lastSuccessfulRefreshAt": "2026-11-27T21:20:47.981995+00:00",
+      "lastAttemptAt": "2026-11-28T07:54:11.318985+00:00",
+      "lastSuccessfulRefreshAt": "2026-11-28T07:54:16.960885+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": null
     }
@@ -622,14 +622,14 @@ window.CALENDAR_DATA = {
     ],
     "refresh": {
       "status": "partial-football-refresh",
-      "lastAttemptAt": "2026-11-27T21:20:42.093570+00:00",
+      "lastAttemptAt": "2026-11-28T07:54:07.814402+00:00",
       "lastSuccessfulRefreshAt": "2026-11-26T21:36:49.073966+00:00",
       "monitoringStartedAt": "2026-09-06T11:41:21.704852+00:00",
       "error": "No London Stadium events found in target range; refusing to overwrite existing data"
     },
     "footballRefresh": {
-      "lastSuccessfulRefreshAt": "2026-11-27T21:20:44.673377+00:00",
-      "lastAttemptAt": "2026-11-27T21:20:42.864930+00:00",
+      "lastSuccessfulRefreshAt": "2026-11-28T07:54:11.318545+00:00",
+      "lastAttemptAt": "2026-11-28T07:54:08.747454+00:00",
       "sourceUrl": "https://www.whufc.com/en/matches/mens-team/fixtures",
       "status": "success",
       "error": null
